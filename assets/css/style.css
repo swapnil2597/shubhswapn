@@ -1,3 +1,20 @@
+.dropdown-lg {
+    /* display: none; */
+    position: relative;
+    /* float: left; */
+    left: -25vw;
+    width: 75vw;
+}
+
+.drop-sub {
+    font-size: 0.6em;
+    font-weight: lighter;
+}
+
+.drop-sub-col {
+    border-right: 1px solid rgb(205, 205, 205);
+}
+
 .side-menu {
     background-color: rgb(104, 104, 104);
 }
@@ -7,30 +24,12 @@
 }
 
 nav {
-    opacity: 0.85;
+    opacity: 0.95;
     height: 50px;
 }
 
-.p-cat-title {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.p-cat-card-l {
-    padding-left: 30px;
-    padding-right: 15px;
-}
-
-.p-cat-card-r {
-    padding-right: 30px;
-    padding-left: 15px;
-}
-
-.side-heading {
-    font-weight: 600;
-    font-size: 2.2vw;
-    color: rgb(192, 49, 49);
-    font-family: Arial, Helvetica, sans-serif;
+.page-navbar {
+    border-radius: 0 0 20px 20px;
 }
 
 .description {
@@ -41,9 +40,40 @@ nav {
 }
 
 .main-raised {
-    min-height: 70vh;
+    min-height: 40vh;
 }
 
+.p-cat-tile{
+    height: 60vh;
+}
+
+.sub-cat-tile{
+    height: 50vh;
+}
+
+.cat-tab-heading {
+    font-weight: 600;
+}
+
+.red-tile {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8),rgba(240, 13, 13, 0.6),rgba(255, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80') fixed center;
+    background-size: auto;
+}
+
+.green-tile {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(19, 77, 16, 0.6), rgba(28, 71, 8, 0.8)), url('https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80') fixed center;
+    background-size: auto;
+}
+
+.purple-tile {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(121, 19, 104, 0.8), rgba(240, 13, 183, 0.6)), url('https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80') fixed center;
+    background-size: auto;
+}
+
+.brown-tile {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(55, 32, 10, 0.8), rgba(89, 44, 16, 0.6)), url('https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80') fixed center;
+    background-size: auto;
+}
 
 /***************** About *****************/
 
@@ -51,6 +81,19 @@ nav {
     font-size: 3.5vw;
 }
 
+
+/***************** contact us *****************/
+
+.map-frame-lg {
+    display: block;
+    width: 70vw;
+    height: calc(0.46296296296 * 70vw);
+    max-width: 1080px; 
+    max-height: 500px;
+    margin: auto;
+}
+
+ 
 
 /***************** FOOTER *****************/
 
@@ -76,4 +119,25 @@ footer h2 {
 footer a:hover {
     font-weight: bold;
     color: red;
+}
+
+
+
+
+
+
+/********************* Shopping Demo-6 **********************/
+
+.raised-tile {
+    box-shadow: 0 10px 10px -5px rgb(35, 33, 33);
+}
+
+.red-3d-cnc-tile {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8),rgba(240, 13, 13, 0.6),rgba(255, 0, 0, 0.8)), url('/assets/img/machine_images/pg-no-56-i.jpg') fixed right;
+    background-size: auto;
+}
+
+.green-tile {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(19, 77, 16, 0.6), rgba(28, 71, 8, 0.8)), url('/assets/img/machine_images/roundness-measuring-machine-500x500.jpg') fixed right;
+    background-size: auto;
 }
