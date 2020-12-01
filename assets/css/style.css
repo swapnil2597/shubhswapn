@@ -67,7 +67,12 @@ nav {
 }
 
 .purple-tile {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(121, 19, 104, 0.8), rgba(240, 13, 183, 0.6)), url('https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80') fixed center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(53, 12, 46, 0.8), rgba(89, 35, 75, 0.6)), url('https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80') fixed center;
+    background-size: auto;
+}
+
+.blue-tile {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(11, 9, 36, 0.8), rgba(25, 14, 63, 0.6)), url('https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80') fixed center;
     background-size: auto;
 }
 
@@ -109,12 +114,12 @@ nav {
 
 footer a,
 footer p {
-    color: white;
+    color: rgb(162, 161, 161);
 }
 
 footer h3,
 footer h2 {
-    color: yellow;
+    color: rgb(52, 109, 155);
 }
 
 footer a:hover {
@@ -156,3 +161,8 @@ footer a:hover {
 .product-drawer-homepage {
     min-height: 50vh;
 }
+
+.product-drawer-homepage  h3 {
+    color: rgb(202, 202, 162);
+}
+
