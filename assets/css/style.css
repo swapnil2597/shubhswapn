@@ -6,6 +6,10 @@
     width: 75vw;
 }
 
+/* .nav-logo-container {
+    height: 40px;
+} */
+
 .drop-sub {
     font-size: 0.6em;
     font-weight: lighter;
@@ -103,18 +107,35 @@ nav {
 
 /***************** FOOTER *****************/
 
+.ftr-top-fade {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.153));
+    height: 10px;
+}
+
+.ftr-fade-btm {
+    background: linear-gradient( rgba(0, 0, 0, 0.153), rgb(174, 174, 174));
+    height: 10px;
+}
+
 .footer-col {
-    border-right: 1px solid rgb(80, 80, 80);
+    border-right: 1px solid rgb(186, 186, 186);
     height: auto;
 }
 
-.translucent {
-    opacity: 0.9;
+.glass-blur {
+    background: rgba(0, 0, 0, 0.153);
+    backdrop-filter: blur(18px);
+    /* border-top: 1px solid rgb(216, 207, 207); */
+}
+
+.glass-blur-copyrights-panel {
+    background: rgba(0, 0, 0, 0.283);
+    backdrop-filter: blur(18px);
 }
 
 footer a,
 footer p {
-    color: rgb(162, 161, 161);
+    color: rgb(87, 81, 81);
 }
 
 footer h3,
@@ -122,15 +143,41 @@ footer h2 {
     color: rgb(52, 109, 155);
 }
 
+footer a {
+    font-weight: bold;
+}
+
 footer a:hover {
     font-weight: bold;
     color: red;
 }
 
+footer h3 {
+    color: rgb(77, 77, 72);
+    font-weight: 400;
+}
 
+.foot-about-des {
+    margin-top: 20px;
+    font-size: 0.75rem;
+    text-align: justify;
+}
+footer a {
+    font-size: 0.85rem;
+}
 
+.mail-sub-btn {
+    background-color: rgb(100, 95, 118);
+}
 
+.copyright-footer {
+    background-color: rgb(174, 174, 174);
+}
 
+.footer .logo-container {
+    width: 45%;
+    margin: auto;
+}
 
 /********************* Shopping Demo-6 **********************/
 
@@ -177,4 +224,12 @@ footer a:hover {
 
 .scrolling-wrapper{
 	overflow-x: auto;
+}
+
+.lowercase {
+    text-transform: lowercase;
+  }
+
+.align-text-justify {
+    text-align: justify;
 }
