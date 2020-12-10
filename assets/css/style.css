@@ -135,12 +135,11 @@ nav {
 
 footer a,
 footer p {
-    color: rgb(87, 81, 81);
+    color: rgb(109, 101, 101);
 }
 
-footer h3,
 footer h2 {
-    color: rgb(52, 109, 155);
+    color: rgb(87, 116, 140);
 }
 
 footer a {
@@ -153,7 +152,7 @@ footer a:hover {
 }
 
 footer h3 {
-    color: rgb(77, 77, 72);
+    color: rgb(134, 91, 91);
     font-weight: 400;
 }
 
@@ -179,6 +178,9 @@ footer a {
     margin: auto;
 }
 
+.ftr-address {
+    font-size: smaller;
+}
 /********************* Shopping Demo-6 **********************/
 
 .raised-tile {
@@ -232,4 +234,8 @@ footer a {
 
 .align-text-justify {
     text-align: justify;
+}
+
+.invisible {
+    opacity: 0;
 }
