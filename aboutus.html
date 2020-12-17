@@ -23,8 +23,8 @@
 <body class="landing-page sidebar-collapse">
     <nav class="navbar navbar-transparent navbar-color-on-scroll bg-dark fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
         <div class="container-fluid">
-            <div class="navbar-translate">
-                <a class="navbar-brand" href="./index.html"> SHUBHSWAPN </a>
+            <div class="navbar-translate pt-0">
+                <a class="navbar-brand" href="./index.html"> <img src="./assets/img/logo.PNG" width="auto" height="30" alt="" class=""> </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="sr-only">Toggle navigation</span>
@@ -35,25 +35,32 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
                     <li class="dropdown nav-item">
                         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Company</a>
                         <div class="dropdown-menu dropdown-with-icons">
                             <a href="./aboutus.html" class="dropdown-item"> <i class="material-icons">layers</i> About us </a>
                             <hr />
-                            <a href="#" class="dropdown-item"> <i class="material-icons">content_paste</i> cat 1 </a>
-                            <a href="#" class="dropdown-item"> <i class="material-icons">content_paste</i> cat 2 </a>
+                            <a href="./management.html" class="dropdown-item"> <i class="material-icons">admin_panel_settings</i> Management </a>
+                            <a href="#" class="dropdown-item"> <i class="material-icons">how_to_reg</i> Strength </a>
                         </div>
                     </li>
                     <li class="dropdown nav-item">
                         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> <i class="material-icons">apps</i> Products </a>
                         <div class="dropdown-menu dropdown-with-icons">
-                            <a href="./product-category.html" class="dropdown-item"> <i class="material-icons">layers</i> All Categories </a>
+                            <a href="./product-category.html" class="dropdown-item"> <i class="material-icons">category</i> All Categories </a>
                             <hr />
-                            <a href="#" class="dropdown-item"> <i class="material-icons">content_paste</i> cat 1 </a>
-                            <a href="#" class="dropdown-item"> <i class="material-icons">content_paste</i> cat 2 </a>
-                            <a href="#" class="dropdown-item"> <i class="material-icons">content_paste</i> cat 3 </a>
-                            <a href="#" class="dropdown-item"> <i class="material-icons">content_paste</i> cat 4 </a>
-                            <a href="#" class="dropdown-item"> <i class="material-icons">content_paste</i> cat 5 </a>
+                            <a href="./metal-cutting-home.html" class="dropdown-item"> <i class="material-icons">layers</i> Metal Cutting </a>
+                            <!-- <a href="#" class="dropdown-item"> <i class="material-icons">layers</i> Sheet Metal </a> -->
+                            <a href="./metal-forming-home.html" class="dropdown-item"> <i class="material-icons">layers</i> Metal Forming </a>
+                            <a href="./metrology-home.html" class="dropdown-item"> <i class="material-icons">layers</i> Metrology & Quality Control </a>
+                            <a href="./special-purpose-machines-home.html" class="dropdown-item"> <i class="material-icons">layers</i> Special Purpose Machines </a>
+                            <!-- <a href="#" class="dropdown-item"> <i class="material-icons">layers</i> Bearing & Unique Products </a>
+                            <a href="#" class="dropdown-item"> <i class="material-icons">layers</i> Tube & Pipe Making </a>
+                            <a href="#" class="dropdown-item"> <i class="material-icons">layers</i> Turnkey Solutions </a>
+                            <a href="#" class="dropdown-item"> <i class="material-icons">layers</i> Gear Machinery </a> -->
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -72,11 +79,12 @@
                         <a class="nav-link" href="./contactus.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" data-original-title="Follow us on Twitter">
-                            <i class="fa fa-twitter"></i>
+                        
+                        <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.linkedin.com/company/shubhswapn" target="_blank" data-original-title="Follow us on Linkedin">
+                            <i class="fa fa-linkedin-square"></i>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank" data-original-title="Like us on Facebook">
                             <i class="fa fa-facebook-square"></i>
                         </a>
@@ -85,7 +93,7 @@
                         <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" data-original-title="Follow us on Instagram">
                             <i class="fa fa-instagram"></i>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -98,97 +106,168 @@
         </div>
     </div>
 
-    <div class="main main-raised" style="background: linear-gradient(to right, rgb(81, 179, 80, 0.8), rgb(255, 255, 255, 0.8), rgb(255, 255, 255, 0.8)); backdrop-filter: blur(15px);">
+    <div class="main main-raised" style="background: linear-gradient(to right, rgba(80, 133, 179, 0.8), rgb(255, 255, 255, 0.8), rgb(255, 255, 255, 0.8)); backdrop-filter: blur(15px);">
         <div class="container-fluid">
             <div class="row m-5">
-                <div class="col-2 mt-5 mb-5 text-center ml-auto">
-                    <h3 class="side-heading">
+                <div class="col-12 col-sm-6 mt-5 mb-5 text-center">
+                    <h3 class="side-heading company-side-titles ml-auto mr-auto">
                         <blockquote>
                             About Us
-                            <hr style="height: 5px; background-color: rgb(85, 61, 61);" />
+                            <hr  />
                         </blockquote>
                     </h3>
                 </div>
-                <div class="col-5 mt-5 mb-5 mr-auto">
-                    <p class="description">
-                        Machine Tools (India) Limited, or MTI, was established in the year 1928 to bring to India world class machines from various manufacturers from Germany, UK, Italy, Japan, USA, etc. <br /><br /> Since then MTI has established itself
-                        as a leading name in the Indian Machine Tool Industry with its countrywide network of offices, strong sales and service support and professional management. <br /><br /> From Machines, Metrology/Quality Control equipment and Welding
-                        machines, MTI offers a mammoth range of state-of-the-art products from the world leaders from across the globe. With a team of 325 professional comprising+ people comprising of more than 165 mechanical / electrical / electronic
-                        engineers who have received training at various manufacturers works in India and abroad for commissioning and service support. <br /><br /> A well-known name in providing professional and committed services is MTI’s strength which
-                        is evident by its growing customer base in Automobile & Auto Components, Heavy Engineering, Iron & Steel, Aerospace, Railways, Power Generation, Defense, Metals and R&D/Quality Control.
-                    </p>
+                <div class="col-12 col-sm-5 mt-5 mb-5 mr-auto">
+                    <h5 class="title">SMT‌ ‌is‌ ‌a‌ ‌Professionally‌ ‌Managed‌ ‌Technology‌ ‌Marketing‌ ‌Company‌ ‌in‌ ‌Central‌ ‌India‌ ‌involving‌ ‌
+                        high-tech‌ ‌machine‌ ‌tools‌ ‌imported‌ ‌from‌ ‌industrially‌ ‌developed‌ ‌nations.‌ ‌The‌ ‌company‌ ‌represents‌ ‌some‌ ‌
+                        world‌ ‌renowned‌ ‌manufacturers‌ ‌from‌ ‌Europe,‌ ‌USA‌ ‌and‌ ‌Far‌ ‌East‌ ‌Countries‌ ‌for‌ ‌Metal‌ ‌Cutting,‌ ‌Metal‌ ‌
+                        Forming‌ ‌Machines‌ ‌and‌ ‌Metrology‌ ‌Equipment.‌ ‌The‌ ‌management‌ ‌includes‌ ‌the‌ ‌professionals‌ ‌with‌ ‌30‌ ‌
+                        years’‌ ‌experience‌ ‌in‌ ‌Sales‌ ‌&‌ ‌Services‌ ‌of‌ ‌Imported‌ ‌Machines.‌ ‌
+                        <br><br>
+                        The‌ ‌objective‌ ‌is‌ ‌to‌ ‌serve‌ ‌the‌ ‌Engineering‌ ‌Industry‌ ‌in‌ ‌India‌ ‌by‌ ‌continuously‌ ‌introducing‌ ‌the‌ ‌latest‌ ‌
+                        innovations‌ ‌in‌ ‌manufacturing‌ ‌technologies‌ ‌involving‌ ‌Metal‌ ‌Cutting,‌ ‌Forming‌ ‌&‌ ‌Metrology.‌</h5>
+                </div>
+            </div>
+            <div class="row m-5">
+                <div class="col-12 col-sm-6 mt-5 mb-5 text-center ml-auto mr-auto">
+                    <h3 class="side-heading company-side-titles">
+                        <blockquote>
+                            Main Activities
+                            <hr />
+                        </blockquote>
+                    </h3>
+                </div>
+                <div class="col-12 col-sm-6 mt-5 mb-5 mr-auto">
+                    
+                        <ul class="p-0">
+                            <li><h5 class="company-about-li title">Global sourcing of latest manufacturing technologies and their introduction in India. </h5></li>
+                            <li><h5 class="company-about-li title">Continuous monitoring of latest developments and innovations in production systems around the World, Identification of their applications and distribution in India.</h5></li>
+                            <li><h5 class="company-about-li title">Project Oriented Marketing of Technological Concepts.</h5></li>
+                            <li><h5 class="company-about-li title">Sales & Service of High Value Imported Machine Tools and Metrology Equipment.</h5></li>
+                            <li><h5 class="company-about-li title">Providing corporate consultancy in Engineering Industry involving Advance Manufacturing Technologies for the production of the parts related to Auto, Defense and Heavy Engineering Industry.</h5></li>
+                            <li><h5 class="company-about-li title">Providing Trainings to Production Engineers in operation, programing and maintenance of modern CNC Machines.</h5></li>
+                            <li><h5 class="company-about-li title">Providing Trainings to QC Engineers in use of Metrology Equipment like CNC CMM, Roundness & Roughness Measuring instruments etc.</h5></li>
+                            <li><h5 class="company-about-li title">Imparting Trainings to Sales Engineers in the Marketing of High Value CNC Machines and Metrology Equipment.</h5></li>
+                        </ul>
+                    ‌
                 </div>
             </div>
         </div>
     </div>
 
-    <footer class="footer footer-default translucent bg-dark mt-5">
+    <div class="ftr-top-fade mt-5"></div>
+
+
+    <footer class="footer footer-default glass-blu mt-">
         <div class="container-fluid">
             <div class="row">
-                <div class="footer-col col-12 col-md-3 text-center">
-                    <h2>SMT Pvt. Ltd.</h2>
-                    <p>fjshdkfjsah ldkfjasdlkfjshad kfjasdhfl kadsjflkdjfhskdjfhas lkjfhsadlkf jsadhkfj ashdfkj sahdlfk jadshflk jsadhfl ksdjhf kajsdh flkasjdfh ksdjfh laskdjfh aslkdjfh askdjfh sakldjfh sadkfjh asdlfkj hasdlfj.</p>
-                </div>
-                <hr class="" style="background-color: rgb(134, 134, 129);" />
-                <div class="footer-col col-12 col-md-3 text-center">
+                
+                
+                <div class="footer-col col-12 col-md-3 text-left">
                     <h3 class="">Useful Links</h3>
-                    <div><a href="./index.html">Home</a></div>
-                    <div><a href="#">About</a></div>
-                    <div><a href="./product-category.html">Products Catalogue</a></div>
-                    <div><a href="#">Services</a></div>
-                    <div><a href="./enquiry.html">Enquiry</a></div>
-                    <div><a href="#">Careers</a></div>
-                    <div><a href="#">Contact US</a></div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div><a href="./index.html">Home</a></div>
+                            <div><a href="#">About</a></div>
+                            <div><a href="#">Services</a></div>
+                        </div>
+                        <div class="col-6">
+                            <div><a href="./enquiry.html">Enquiry</a></div>
+                            <div><a href="#">Careers</a></div>
+                            <div><a href="#">Contact US</a></div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12">
+                            <div><a href="./product-category.html">All Products Catalogue</a></div>
+                            <hr class="invisible mb-0">
+                            <div><a href="./metal-forming-home.html">Metal Forming</a></div>
+                            <div><a href="./metal-cutting-home.html">Metal Cutting</a></div>
+                            <div><a href="./metrology-home.html">Metrology</a></div>
+                            <div><a href="#">Special Purpose Machines</a></div>
+                        </div>
+                    </div>
                 </div>
                 <hr class="d-block d-md-none" style="background-color: rgb(134, 134, 129);" />
-                <div class="footer-col col-12 col-md-3 text-center">
+                <div class="footer-col col-12 col-md-3 text-left">
                     <h3>Join our mailing list</h3>
-                    <p>We send periodically mails with latest trends & manufacturing solutions to the Industry users. <br /><br /></p>
+                    <p>We send periodically mails with latest trends & manufacturing solutions to the Industry users. <br><br></p>
                     <div>
-                        <form action="" class="form card">
-                            <div style="font-weight: bold;" class="card-header text-center card-header-info">Please register for the same:</div>
-                            <div class="card-body">
+                        <form action="" class="form card text-center">
+                            <div class="card-body" style="background-color: rgba(152, 152, 160, 0.461);">
+                                <h4 style="color: rgb(111, 117, 121); font-weight: bold;" class="text-center">Please register for the same:</h4>
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="material-icons">mail</i></span>
                                     </div>
-                                    <input type="email" class="form-control" placeholder="Email..." />
+                                    <input type="email" class="form-control" placeholder="Email...">
                                 </div>
                                 <div class="mt-2">
-                                    <button type="submit" class="btn btn-primary btn-github">Subscribe now</button>
+                                    <button type="submit" class="btn btn-github mail-sub-btn bg-dark">Subscribe now</button>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
                 <hr class="d-block d-md-none" style="background-color: rgb(134, 134, 129);" />
-                <div class="col-12 col-md-3 text-center">
-                    <h3>CONTACT INFO</h3>
+                <div class="footer-col col-12 col-md-3 text-center">
+                    <h3>Contact Info</h3>
+                    <h5 class="title mb-0">Address</h5>
+                    <p class="ftr-address">216A, C21 Corporate Zone, Capital Mall, Hoshangabad Rd, Misrod, Bhopal, Madhya Pradesh - 462047, India</p>
+                    <h5 class="title mb-0 mt-0">Phone</h5>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="tel:+918962822773"><button class="btn btn-sm">+91 89628 22773</button></a>
+                            <a href="tel:+919826075580"><button class="btn btn-sm">+91 98260 75580</button></a>
+                        </div>
+                    </div>
+                    <h5 class="title mb-0">Email</h5>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="mailto:shubh.machines@gmail.com"><button class="btn btn-sm">shubh.machines@gmail.com</button></a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="" style="background-color: rgb(134, 134, 129);" />
+                <div class="col-12 col-md-3 text-left">
+                    <!-- <h3>SMT Pvt. Ltd.</h3> -->
+                    <div class="logo-container mt-3">
+                        <img src="./assets/img/logo.PNG" alt="" class="img-fluid img">
+                    </div>
+                    <p class="foot-about-des">SMT is a Professionally Managed TechnologyMarketing company in Central India involving high-tech machine tools imported from industrially developed nations. The company represents some world-renowned manufacturers from Europe, the USA, and Far East Countries for Metal Cutting, Metal Forming Machines, and Metrology Equipment. The management includes professionals with 35+ years' experience in the Sales & Services of Imported Machines.</p>
+                    
                 </div>
             </div>
         </div>
-        <hr />
+        <hr>
+
+
     </footer>
-    <footer class="bg-dark copyright-footer">
+
+    <!-- <div class="ftr-fade-btm"></div> -->
+
+    <footer class="copyright-footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-md-6">
-                    <p>All Rights Reserved. &copy; 2020 - <a style="color: rgb(0, 157, 255); font-style: helvetica;" href="">Shubhswapn Machine Tools Pvt. Ltd.</a> | Designed and Developed by <a style="color: rgb(0, 157, 255); font-style: helvetica;" href="swapnil2597.github.io">Swapnil Khare</a></p>
+                <div class="col-12 col-md-8">
+                    <p>All Rights Reserved. &copy; 2020 - <a style="font-weight: bold; font-style:helvetica;" href="./index.html">Shubhswapn Machine Tools Pvt. Ltd.</a> | Designed and Developed by <a style="font-weight: bold; font-style:helvetica;" href="swapnil2597.github.io">Swapnil Khare</a></p>
                 </div>
-                <div class="col-12 col-md-6 text-right">
+                <div class="col-12 col-md-4 text-center">
                     <span>
-       <a class="copyright-social ml-3" rel="tooltip" title="" data-placement="top" href="https://twitter.com/CreativeTim" target="_blank" data-original-title="Follow us on Twitter"><i class="fa fa-twitter"></i></a>
-      </span>
+                    <a class="copyright-social ml-3" rel="tooltip" title="" data-placement="top" href="https://www.linkedin.com/company/shubhswapn" target="_blank" data-original-title="Follow us on Linkedin"><i class="fa fa-linkedin-square"></i></a>
+                    </span>
                     <span>
-       <a class="copyright-social ml-3" rel="tooltip" title="" data-placement="top" href="https://www.facebook.com/CreativeTim" target="_blank" data-original-title="Like us on Facebook"><i class="fa fa-facebook-square"></i></a>
-      </span>
-                    <span>
-       <a class="copyright-social ml-3" rel="tooltip" title="" data-placement="top" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" data-original-title="Follow us on Instagram"><i class="fa fa-instagram"></i></a>
-      </span>
+                    <a class="copyright-social ml-3" rel="tooltip" title="" data-placement="top" href="https://www.google.com/search?q=Shubhswapn+Machine+Tools&rlz=1C1CHBF_enIN924IN925&oq=shubhswapn+Machine+Tools&aqs=chrome.0.69i59j35i39j46i433i457j46i433l2j69i61l3.1477j0j7&sourceid=chrome&ie=UTF-8" target="_blank" data-original-title="Like us on google"><i class="fa fa-google"></i></a>
+                  </span>
+                    <!-- <span>
+                    <a class="copyright-social ml-3" rel="tooltip" title="" data-placement="top" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" data-original-title="Follow us on Instagram"><i class="fa fa-instagram"></i></a>
+                    </span> -->
                 </div>
             </div>
         </div>
     </footer>
+    
     <!--   Core JS Files   -->
     <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
     <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
